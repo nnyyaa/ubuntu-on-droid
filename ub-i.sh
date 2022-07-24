@@ -22,7 +22,8 @@ sleep 2
 wget https://mirrors.bfsu.edu.cn/ubuntu-cdimage/ubuntu-base/releases/20.04.4/release/ubuntu-base-20.04.4-base-arm64.tar.gz
 mkdir ubuntu-fs
 mv ubuntu-base-20.04.4-base-arm64.tar.gz ubuntu-fs
-tar -xvzf ubuntu-fs/ubuntu-base-20.04.4-base-arm64.tar.gz
+cd ubuntu-fs
+tar -xvzf ubuntu-base-20.04.4-base-arm64.tar.gz
 chmod 777 ubuntu-on-phone/*
 mv ubuntu-on-phone/startubuntu $PREFIX/bin
 cd ~
