@@ -20,4 +20,6 @@ echo '蹦蹦炸弹~嘿咻
 
 wget http://cdimage.ubuntu.com/ubuntu-base/releases/20.04.4/release/ubuntu-base-20.04.1-base-arm64.tar.gz
 tar -xvzf ubuntu-base-20.04.1-base-arm64.tar.gz
-git clone
+git clone https://hub.fastgit.xyz/wspbh/ubuntu-on-phone.git
+cd ubuntu-on-phone
+chmod +x *
