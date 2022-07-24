@@ -20,6 +20,6 @@ echo '蹦蹦炸弹~嘿咻
 马上开始~'
 sleep 2
 wget https://mirrors.bfsu.edu.cn/ubuntu-cdimage/ubuntu-base/releases/20.04.4/release/ubuntu-base-20.04.4-base-arm64.tar.gz
-tar -xvzf ubuntu-base-20.04.1-base-arm64.tar.gz
+tar -xvzf ubuntu-base-20.04.4-base-arm64.tar.gz
 chmod 777 ubuntu-on-phone/*
 mv ubuntu-on-phone/startubuntu $PREFIX/bin
