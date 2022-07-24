@@ -24,6 +24,6 @@ mkdir ubuntu-fs
 mv ubuntu-base-20.04.4-base-arm64.tar.gz ubuntu-fs
 cd ubuntu-fs
 tar -xvzf ubuntu-base-20.04.4-base-arm64.tar.gz
-chmod 777 ubuntu-on-phone/*
-mv ubuntu-on-phone/startubuntu $PREFIX/bin
+chmod 777 ~/ubuntu-on-phone/*
+mv ~/ubuntu-on-phone/startubuntu $PREFIX/bin
 cd ~
