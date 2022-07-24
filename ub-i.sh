@@ -27,3 +27,7 @@ tar -xvzf ubuntu-base-20.04.4-base-arm64.tar.gz
 chmod 777 ~/ubuntu-on-phone/*
 mv ~/ubuntu-on-phone/startubuntu $PREFIX/bin
 cd ~
+cd ubuntu-fs/etc/
+rm resolv.conf apt/sources.list
+mv ~/ubuntu-on-phone/resolv.conf .
+mv ~/ubuntu-on-phone/sources.list apt/
