@@ -31,3 +31,7 @@ cd ubuntu-fs/etc/
 rm resolv.conf apt/sources.list
 mv ~/ubuntu-on-phone/resolv.conf .
 mv ~/ubuntu-on-phone/sources.list apt/
+clear
+echo '完成！'
+echo '输入startubuntu来启动ubuntu!'
+read -p '按任意键退出
