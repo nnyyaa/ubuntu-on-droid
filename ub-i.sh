@@ -56,4 +56,6 @@ esac
 clear
 echo '完成！'
 echo '输入startubuntu来启动ubuntu!'
+echo '有问题可加我QQ哦'
+echo 'qq:1769481479'
 read -p '按任意键退出!'
