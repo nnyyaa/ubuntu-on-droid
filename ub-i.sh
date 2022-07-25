@@ -23,7 +23,7 @@ wget https://mirrors.bfsu.edu.cn/ubuntu-cdimage/ubuntu-base/releases/22.04/relea
 mkdir ubuntu-fs
 mv ubuntu-base-22.04-base-arm64.tar.gz ubuntu-fs
 cd ubuntu-fs
-tar -xvzf ubuntu-base-20.04.4-base-arm64.tar.gz
+tar -xvzf ubuntu-base-22.04-base-arm64.tar.gz
 chmod 777 ~/ubuntu-on-phone/*
 mv ~/ubuntu-on-phone/startubuntu $PREFIX/bin
 cd ~
