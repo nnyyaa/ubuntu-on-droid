@@ -35,7 +35,7 @@ cd ~
 read -n1 -p "需要伪造proc文件吗?(无root推荐选择)  [输Y以伪造/任意键取消]?" answer
 case $answer in
 Y | y )
-echo '伪造脚本用了moe大佬的脚步'
+echo '伪造脚本用了moe大佬的脚本'
 sleep 3
 mkdir proot_proc
 wget https://gitee.com/yudezeng/proot_proc/raw/master/proc.tar.xz
