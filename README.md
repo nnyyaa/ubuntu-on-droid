@@ -1,4 +1,4 @@
-# ubuntu-on-phone
+# ubuntu-on-dorid
 a sc to install ubuntu on phone
 
 这个脚本会自动在你的手机上安装ubuntu
