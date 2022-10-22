@@ -1,5 +1,5 @@
 #/data/data/com.termux/files/usr/bin/bash
-echo -e "\033[34m 作者:wspbh github地址:www.github.com/wspbh
+echo -e "\033[34m 作者:wspbh 该项目github地址:www.github.com/wspbh/ubuntu-on-droid
 确保你的网络正常，记得关流量XD否则安装失败不怪我
 qq:1769481479
 目前只支持ubuntu22.04LTS版本\033[0m"
@@ -59,3 +59,4 @@ echo '输入startubuntu来启动ubuntu!'
 echo '有问题可加我QQ哦'
 echo 'qq:1769481479'
 read -p '按任意键退出!'
+exit 1
