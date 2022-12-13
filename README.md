@@ -12,7 +12,7 @@ ___
 apt update
 apt upgrade
 apt install git -y
-git clone https://hub.fastgit.xyz/wspbh/ubuntu-on-phone.git
+git clone https://github.com/wspbh/ubuntu-on-phone.git
 cd ubuntu-on-phone
 chmod +x *
 ./ub-i.sh
@@ -23,7 +23,8 @@ chmod +x *
 安装完成后输入startubuntu启动
 
 
-全程无需魔法!
+~全程无需魔法!~
+由于github镜像站寿命问题，现不再使用国内镜像站
 
 ___
 
