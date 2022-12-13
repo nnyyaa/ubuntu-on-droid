@@ -9,13 +9,13 @@ ___
 
 安装termux
 ```
-apt update
-apt upgrade
-apt install git -y
-git clone https://github.com/wspbh/ubuntu-on-phone.git
-cd ubuntu-on-phone
-chmod +x *
-./ub-i.sh
+pkg upd  
+pkg upg  
+apt i git -y  
+git clone https://github.com/wspbh/ubuntu-on-phone.git  
+cd ubuntu-on-phone  
+chmod +x *  
+./ub-i.sh  
 ```
 等等等
 
