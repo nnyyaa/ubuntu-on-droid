@@ -1,7 +1,8 @@
 # ubuntu-on-dorid
 a sc to install ubuntu on phone
 
-这个脚本会自动在你的手机上安装ubuntu
+这个脚本会自动在你的手机上安装ubuntu  
+###### 注意，现只支持Ubuntu22.04
 
 ___
 
@@ -11,7 +12,7 @@ ___
 ```
 pkg upd  
 pkg upg  
-apt i git -y  
+pkg i git -y  
 git clone https://github.com/wspbh/ubuntu-on-phone.git  
 cd ubuntu-on-phone  
 chmod +x *  
